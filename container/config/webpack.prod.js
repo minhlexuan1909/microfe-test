@@ -10,7 +10,7 @@ const prodConfig = {
   output: {
     filename: "[name].[contenthash].js",
     // Decide which path production server contains file to run (Base on server)
-    publicPath: "/container/lastest/",
+    publicPath: "/container/latest/",
   },
   plugins: [
     new ModuleFederationPlugin({
