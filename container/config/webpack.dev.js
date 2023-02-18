@@ -22,8 +22,8 @@ const devConfig = {
       // shared: ["react", "react-dom"]
       shared: packageJson.dependencies,
     }),
-    
   ],
 };
 
 module.exports = merge(commonConfig, devConfig);
+// Test
