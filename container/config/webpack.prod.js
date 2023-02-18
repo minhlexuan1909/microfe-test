@@ -9,6 +9,8 @@ const prodConfig = {
   mode: "production",
   output: {
     filename: "[name].[contenthash].js",
+    // Decide which path production server contains file to run (Base on server)
+    publicPath: "/container/lastest/",
   },
   plugins: [
     new ModuleFederationPlugin({
